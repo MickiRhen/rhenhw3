@@ -1,7 +1,35 @@
 rhenhw3
 ==============================
 
-MIS 6900 aap course - Homework 3 - Simulation
+MIS 6900 aap course - Homework 3 - Simulation of border crossing
+==============================
+
+Model requirements can be found in:
+	requirements.txt
+
+	
+The original simple border crossing model with fixed configuration can be found in:
+	notebooks\rhenhw3_simulation.ipynb
+	
+A more complex model that allows for the input of configuration files can be found in:
+	src\rhenhw3\border_crossing_model_4.py
+
+	
+Various input configuration files can be found in:
+	src\rhenhw3\input\
+	
+	
+	
+Eg. To run model with base configurations from python from this directory:
+		python border_crossing_model_4.py --config input/base.cfg	
+
+	
+Various output files can be found in:
+	src\rhenhw3\output\
+	
+
+
+
 
 Project Organization
 ------------

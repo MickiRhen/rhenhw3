@@ -1,0 +1,15 @@
+# local package
+math
+numpy
+pandas
+simpy
+
+# notebook version additionally requires
+scipy
+matplotlib
+seaborn
+
+# external requirements
+Sphinx
+
+
